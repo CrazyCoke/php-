@@ -75,4 +75,4 @@ php中两种定义方式：
 常用的几个系统常量：
 PHP_VERSION : PHP版本号。
 PHP_INT_SIZE : 整形大小。
-PHP_INT_MAX : 整形能表示的最大值。
+PHP_INT_MAX : 整形能表示的最大值(带符号，整形是允许出现复数的)。
