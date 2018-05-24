@@ -19,3 +19,12 @@ grammar_cjkRuby: true
 
 ### 预定义变量
 提前定义的变量，系统定义的变量，储存许多需要用到的数据（预定义变量都是数组。）
+$_GET : 获取所有表单以get方式提交的数据。
+$_POST : post提交的数据都会保存在此。
+$_REQUSET :   get和post提交的数据都会保存。
+$GLOBALS :  php中所有的全局变量。
+$_SERVER : 服务器信息。
+$_SESSION :session 会话数据。
+$_COOKIE :  cookie 会话数据。
+$_ENV : 环境信息。
+$_FILES : 用户上传的数据。
