@@ -81,3 +81,4 @@ empty() : 判断数据的值是否为“空” ，不是NULL ，如果为空返�
 lsset() : 判断数据储存的变量本身是否存在，存在变量返回true，不存在返回false。
 
 
+![enter description here](./images/2018-05-25_112020.png)
