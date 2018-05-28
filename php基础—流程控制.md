@@ -38,13 +38,15 @@ for ( $i  = 0; $i <= 10 ; $i++){
 }
 
 ### while，do-while 循环
+
+while先判断条件，不符合就一次都不执行。
 $a = 0;
 while($a < 10){
 	echo $a;
 	$a++;
 }
 
-
+do-while 先执行一次再判断条件。
 do{
 	echo$a++;
 }while($a < 10);
