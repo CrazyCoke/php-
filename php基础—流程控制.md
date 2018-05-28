@@ -9,4 +9,5 @@ if（）{
 }elseif（）{
 }else{
 }
+与java类似，else if  写为 elseif
 
