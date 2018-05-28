@@ -36,3 +36,10 @@ switch（）{
 for ( $i  = 0; $i <= 10 ; $i++){
 	echo $i,'<br/>';
 }
+
+### while，do-while 循环
+$a = 0
+while($a < 10){
+	echo $a;
+	$a++;
+}
