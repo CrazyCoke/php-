@@ -11,3 +11,23 @@ if（）{
 }
 与java类似，else if  写为 elseif
 
+使用场景：判断条件单一 ，采用elseif 方式。
+					判断条件不相同，采用嵌套形式。
+					适用于所有的条件判断。
+
+### switch 分支
+判断同一条件的不同值。
+switch（）{
+	case var1：
+		代码段
+		break；
+	case var2：
+		代码段
+		break；
+	case var3：
+		代码段
+		break；
+	default：
+		匹配失败执行的代码
+		break；
+}
